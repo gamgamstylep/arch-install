@@ -309,6 +309,10 @@ doMkfs() {
 			mkfs -t fat -F 32 -n "$2" "$3"
 			;;
 
+		btrfs)
+			mkfs.btrfs -L "$2" "$3"
+			;;
+
 		*)
 			mkfs -t "$1" -L "$2" "$3"
 			;;
