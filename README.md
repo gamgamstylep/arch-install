@@ -18,7 +18,7 @@ A highly configurable script installing
 * [Xfce](http://www.xfce.org/) installation, including the Numix theme and icons
 * Graphical user login using LightDM
 * Installation of individually configurable software package sets, already
-including
+  including
   * [Chrome](https://www.google.de/chrome/browser/desktop/), [Firefox](https://www.mozilla.org/firefox/), [Thunderbird](https://www.mozilla.org/thunderbird/), [Skype](http://www.skype.com/), [Pidgin](https://www.pidgin.im/), [TeamViewer](https://www.teamviewer.com/)
   * [GIMP](http://www.gimp.org/), [gThumb](https://wiki.gnome.org/Apps/gthumb), [Shutter](http://shutter-project.org/), [Kazam](https://launchpad.net/kazam)
   * [Dropbox](https://www.dropbox.com/), [FileZilla](https://filezilla-project.org/), [gSTM](http://sourceforge.net/projects/gstm/), [Tor](https://www.torproject.org/)
@@ -40,7 +40,7 @@ everything is configurable...
 Boot the [Arch Linux ISO image](https://www.archlinux.org/download/) and type
 in:
 
-```
+```shell
 curl -L https://github.com/wrzlbrmft/arch-install/archive/master.tar.gz | tar zxvf -
 arch-install-master/arch-install.sh
 ```
